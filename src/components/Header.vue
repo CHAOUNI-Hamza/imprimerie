@@ -331,7 +331,7 @@ button {
     position: absolute;
     right: 2%;
     max-width: 650px;
-    bottom: 0;
+    bottom: -51px;
     animation: mymove 8s ease-in-out infinite;
 }
 

@@ -10,6 +10,7 @@ import Pricing from "./components/Pricing.vue";
 import Testimonials from "./components/Testimonials.vue";
 import Blog from "./components/Blog.vue";
 import Footer from "./components/Footer.vue";
+import GoToTopButton from "./components/GoToTopButton.vue";
 
 /**
  * You can register global components here and use them as a plugin in your main Vue instance
@@ -29,6 +30,7 @@ const GlobalComponents = {
         Vue.component("Testimonials", Testimonials)
         Vue.component("Blog", Blog)
         Vue.component("Footer", Footer)
+        Vue.component("GoToTopButton", GoToTopButton)
     },
 };
 
