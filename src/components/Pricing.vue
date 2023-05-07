@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-12 top">
-                    <h3 class="sous-title">Gallery</h3>
+                    <h3 class="sous-title">Pricing</h3>
                     <h2 class="title">Spectacular Works From Our Digital Print Services</h2>
                 </div>
             </div>
@@ -176,6 +176,84 @@ export default {
     color: black;
     margin-bottom: 6px;
     margin-right: 5px;
+}
+
+/* start media */
+@media (min-width: 0px) and (max-width: 428px) {
+
+    .pricing {
+        padding: 0 21px;
+    }
+
+    .top .title {
+        font-size: 1.5em;
+    }
+
+    .top .sous-title {
+        font-size: 2.5em;
+    }
+
+    .content img {
+        height: 300px;
+    }
+
+    .packages {
+        margin-bottom: 17px;
+        font-size: 2em;
+    }
+
+    .title-card {
+        margin-bottom: 7px;
+    }
+
+    .list h5 {
+
+        font-size: 0.8em;
+
+    }
+
+    .content-card {
+
+        margin-bottom: 30px;
+    }
+
+}
+
+@media (min-width: 429px) and (max-width: 834px) {
+    .pricing {
+        padding: 80px 21px;
+    }
+
+    .content img {
+        height: 176px;
+    }
+
+
+    .packages {
+        margin-bottom: 17px;
+        font-size: 1.2em;
+    }
+
+    .title-card {
+        margin-bottom: 7px;
+        font-size: 1em;
+    }
+
+    .list h5 {
+
+        font-size: 0.4em;
+
+    }
+
+    .content-card {
+
+        margin-bottom: 30px;
+    }
+
+    .list-li {
+
+        margin-bottom: 0;
+    }
 }
 </style>
   

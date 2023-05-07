@@ -82,5 +82,29 @@ export default {
     font-size: 1.1em;
     margin-top: 26px;
 }
+
+/* start media */
+@media (min-width: 0px) and (max-width: 428px) {
+    .sous-title {
+        font-size: 2em;
+    }
+
+    .title {
+        font-size: 2.5em;
+        padding: 10px;
+    }
+}
+
+@media (min-width: 429px) and (max-width: 834px) {
+    .sous-title {
+        font-size: 3em;
+    }
+
+    .title {
+        font-size: 3.5em;
+        padding: 10px;
+    }
+
+}
 </style>
   

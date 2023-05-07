@@ -96,5 +96,27 @@ export default {
     font-weight: bold;
     font-size: 19px;
 }
+
+/* start media */
+@media (min-width: 0px) and (max-width: 428px) {
+    .elementor {
+        text-align: center;
+    }
+
+    .elementor-heading-title {
+        font-size: 3em;
+    }
+}
+
+@media (min-width: 429px) and (max-width: 834px) {
+
+    .elementor-heading-title {
+        font-size: 2em;
+    }
+
+    .elementor-widget-container {
+        padding: 0;
+    }
+}
 </style>
   

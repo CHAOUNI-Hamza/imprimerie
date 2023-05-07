@@ -5,7 +5,7 @@
             <footer class="site-footer">
                 <div class="footer-top">
                     <div class="row  justify-content-between">
-                        <div class="col-lg-3 col-md-6 lign">
+                        <div class="col-md-4 lign">
                             <div class="footer-block">
                                 <p class="footer-logo" style="font-size: 20px;">
                                     <router-link :to="{ name: 'home' }" class="navbar-brand logo">
@@ -33,7 +33,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 lign">
+                        <div class="col-md-4 lign">
                             <div class="footer-links">
                                 <h4 class="font-weight-bold">Services</h4>
                                 <ul class="list-unstyled p-0">
@@ -56,7 +56,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 lign">
+                        <div class="col-md-4 lign">
                             <div class="footer-newletter">
                                 <h4 class="font-weight-bold">Contact Us</h4>
                                 <div class="footer-contact-info">
@@ -284,6 +284,16 @@ a {
 .icon {
     width: 30px;
 }
+
+/* start media */
+@media (min-width: 0px) and (max-width: 428px) {
+    .footer {
+        text-align: center;
+    }
+
+}
+
+@media (min-width: 429px) and (max-width: 834px) {}
 </style>
       
       

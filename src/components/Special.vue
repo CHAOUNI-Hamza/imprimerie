@@ -70,5 +70,28 @@ export default {
     left: 0;
     position: absolute;
 }
+
+/* start media */
+@media (min-width: 0px) and (max-width: 428px) {
+
+    .special {
+        padding: 80px 0;
+    }
+
+    .special h2 {
+        font-size: 1.5em;
+    }
+
+}
+
+@media (min-width: 429px) and (max-width: 834px) {
+    .special {
+        padding: 80px 0;
+    }
+
+    .special h2 {
+        font-size: 2em;
+    }
+}
 </style>
   

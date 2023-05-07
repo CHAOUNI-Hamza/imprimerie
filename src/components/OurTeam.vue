@@ -39,8 +39,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-6 elementor" style="padding-left: 0;
-    padding-right: 71px;">
+            <div class="col-12 col-sm-12 col-md-6 elementor elementor-text">
                 <div class="elementor-widget-wrap">
 
                     <div class="elementor-element">
@@ -161,6 +160,69 @@ export default {
     align-items: center;
     justify-content: center;
     color: white;
+}
+
+.elementor.elementor-text {
+    padding-left: 0;
+    padding-right: 71px;
+}
+
+/* start media */
+@media (min-width: 0px) and (max-width: 428px) {
+
+    .sous-title {
+        text-align: center;
+        font-size: 2em;
+    }
+
+    .title {
+        font-size: 2.5em;
+        padding: 12px;
+        text-align: center;
+    }
+
+    .elementor-button {
+        justify-content: center;
+        margin-bottom: 61px;
+    }
+
+    .sous-content {
+        padding: 43px 0;
+    }
+
+    .our-team {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .elementor {
+        text-align: center;
+        padding: 0 36px;
+    }
+
+    .elementor-heading-title {
+        font-size: 2em;
+    }
+
+    .elementor-widget-container {
+        padding: 10px;
+    }
+
+    .elementor.elementor-text {
+        padding: 0 36px;
+    }
+
+}
+
+@media (min-width: 429px) and (max-width: 834px) {
+    .sous-img img {
+        height: auto;
+
+    }
+
+    .elementor-heading-title {
+        font-size: 2em;
+    }
 }
 </style>
   

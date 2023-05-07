@@ -185,5 +185,30 @@ export default {
 .sous-img:hover {
     transform: scale(1.2);
 }
+
+/* start media */
+@media (min-width: 0px) and (max-width: 428px) {
+
+    .sous-title {
+        text-align: center;
+        font-size: 2em;
+    }
+
+    .title {
+        font-size: 2.5em;
+        padding: 12px;
+        text-align: center;
+    }
+
+    .elementor-button {
+        justify-content: center;
+        margin-bottom: 61px;
+    }
+
+    .sous-content {
+        margin: 43px 0;
+    }
+
+}
 </style>
   

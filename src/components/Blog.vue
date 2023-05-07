@@ -152,5 +152,58 @@ export default {
 .content-card:hover img {
     transform: scale(1.1);
 }
+
+/* start media */
+@media (min-width: 0px) and (max-width: 428px) {
+    .top .sous-title {
+        font-size: 3em;
+    }
+
+    .blog {
+        padding: 18px;
+    }
+
+    .top .title {
+        font-size: 2em;
+    }
+
+    .content-card {
+        padding: 0 0 40px 0;
+    }
+
+}
+
+@media (min-width: 429px) and (max-width: 834px) {
+    .blog {
+        padding: 70px 18px;
+    }
+
+    .top .sous-title {
+        font-size: 4em;
+    }
+
+
+
+    .top .title {
+        font-size: 2em;
+    }
+
+    .content-card {
+        padding: 0 0 40px 0;
+    }
+
+    .content-card img {
+        height: 250px;
+    }
+
+    .title-card {
+
+        font-size: 1.5em;
+    }
+
+    .elementor-button-link {
+        width: 100%;
+    }
+}
 </style>
   

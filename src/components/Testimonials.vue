@@ -34,7 +34,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-5">
+            <div class="col-12 col-sm-12 col-md-5 image">
                 <div class="img">
                     <img src="https://rona.antstheme.com/wp-content/uploads/2023/04/portrait-of-joyful-adult-pointing-index-fingers-up-2022-02-04-18-04-50-utc.jpg"
                         alt="" width="100%">
@@ -96,6 +96,67 @@ export default {
     color: rgb(0, 0, 0);
     font-weight: bold;
     font-size: 2em;
+}
+
+/* start media */
+@media (min-width: 0px) and (max-width: 428px) {
+    .testimonials {
+        padding: 0;
+    }
+
+    .elementor {
+        text-align: center;
+    }
+
+    .elementor-heading-title {
+        font-size: 2em;
+        padding: 0 29px;
+    }
+
+    .elementor-widget-container p {
+        padding: 0 32px;
+    }
+
+    .elementor-button-wrapper {
+        padding-bottom: 21px;
+    }
+
+    .elementor-link {}
+
+    .elementor-widget-container {}
+
+    .img img {
+        height: 432px;
+    }
+
+}
+
+@media (min-width: 429px) and (max-width: 834px) {
+    .testimonials {
+        padding: 0;
+    }
+
+    .elementor {
+        /*text-align: center;*/
+    }
+
+    .elementor-heading-title {
+        font-size: 2.5em;
+    }
+
+    .elementor-widget-container p {
+        padding: 0 32px;
+    }
+
+    .image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image img {
+        height: 400px;
+    }
 }
 </style>
   

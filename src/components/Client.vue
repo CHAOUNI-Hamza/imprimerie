@@ -39,5 +39,12 @@ export default {
 .client {
     padding: 80px 0px;
 }
+
+/* start media */
+@media (min-width: 0px) and (max-width: 428px) {
+    .logo {
+        margin-bottom: 30px;
+    }
+}
 </style>
   

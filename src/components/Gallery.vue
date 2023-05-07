@@ -161,5 +161,36 @@ h6 {
     transition: 1s;
     opacity: 0;
 }
+
+/* start media */
+@media (min-width: 0px) and (max-width: 428px) {
+
+    .gallery {
+        padding: 80px 21px;
+    }
+
+    .top .title {
+        font-size: 1.5em;
+    }
+
+    .top .sous-title {
+        font-size: 2.5em;
+    }
+
+    .content img {
+        height: 300px;
+    }
+
+}
+
+@media (min-width: 429px) and (max-width: 834px) {
+    .gallery {
+        padding: 80px 21px;
+    }
+
+    .content img {
+        height: 176px;
+    }
+}
 </style>
   
