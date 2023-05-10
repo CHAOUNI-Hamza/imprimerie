@@ -1,18 +1,18 @@
 <template>
-    <div class="testimonials container text-center">
+    <div class="welcome container text-center">
         <div class="row">
 
-            <div class="col-12 col-sm-12 col-md-7 elementor">
+            <div class="col-12 col-sm-12 col-md-6 elementor">
                 <div class="elementor-widget-wrap">
                     <div class="elementor-element">
                         <div class="elementor-widget-container">
-                            <h2 class="elementor-heading-title elementor-size-default">Testimonials</h2>
+                            <h2 class="elementor-heading-title elementor-size-default">Welcome</h2>
                         </div>
                     </div>
                     <div class="elementor-element">
                         <div class="elementor-widget-container">
-                            <h2 class="elementor-heading-title">Get To Know Our Digital Print Services Closer Through
-                                Customer Reviews</h2>
+                            <h2 class="elementor-heading-title">Welcome To Rona, Helping You Find The Best Digital Printing
+                                Solutions.</h2>
                         </div>
                     </div>
                     <div class="elementor-element">
@@ -26,17 +26,15 @@
                     <div class="elementor-element">
                         <div class="elementor-widget-container">
                             <div class="elementor-button-wrapper">
-                                <router-link :to="{ name: 'home' }" class="elementor-link">
-                                    Sally Wily - Customer Rona
-                                </router-link>
+                                Aliana H - Ceo Of Rona
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-5 image">
+            <div class="col-12 col-sm-12 col-md-6">
                 <div class="img">
-                    <img src="https://rona.antstheme.com/wp-content/uploads/2023/04/portrait-of-joyful-adult-pointing-index-fingers-up-2022-02-04-18-04-50-utc.jpg"
+                    <img src="https://rona.antstheme.com/wp-content/uploads/2023/04/portrait-of-angry-young-man-looking-at-camera-and-2022-12-16-13-41-18-utc.jpg"
                         alt="" width="100%">
                 </div>
             </div>
@@ -55,7 +53,7 @@ export default {
   
   <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.testimonials {
+.welcome {
     padding: 80px 0px;
     background-image: url(https://rona.antstheme.com/wp-content/uploads/2023/04/component-background.png);
     background-position: center left;
@@ -64,8 +62,7 @@ export default {
 }
 
 .img img {
-    width: 100%;
-    height: 658px;
+    width: 80%;
 }
 
 .elementor {
@@ -91,16 +88,19 @@ export default {
     color: black;
 }
 
-.elementor-link {
+.elementor-button-link {
+    background-color: #ff9247;
+    padding: 8px 21px;
+    border-radius: 18px;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: white;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 19px;
 }
 
 /* start media */
 @media (min-width: 0px) and (max-width: 428px) {
-    .testimonials {
+    .welcome {
         padding: 0;
     }
 
@@ -110,54 +110,24 @@ export default {
 
     .elementor-heading-title {
         font-size: 2em;
-        padding: 0 29px;
+        padding: 0 12px;
     }
 
     .elementor-widget-container p {
-        padding: 0 32px;
+        padding: 0 22px;
     }
 
     .elementor-button-wrapper {
-        padding-bottom: 21px;
-    }
-
-    .elementor-link {
         font-size: 1.5em;
+        margin-bottom: 18px;
+        font-weight: bold;
     }
-
-    .elementor-widget-container {}
-
-    .img img {
-        height: 432px;
-    }
-
 }
 
 @media (min-width: 429px) and (max-width: 834px) {
-    .testimonials {
-        padding: 40ox 0;
-    }
-
-    .elementor {
-        /*text-align: center;*/
-    }
 
     .elementor-heading-title {
         font-size: 1.5em;
-    }
-
-    .elementor-widget-container p {
-        padding: 0;
-    }
-
-    .image {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .image img {
-        height: 400px;
     }
 
     .elementor-widget-container {

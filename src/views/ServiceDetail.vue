@@ -1,5 +1,9 @@
 <template>
-    <div>test</div>
+    <Header />
+    <ServiceDetaile />
+    <Special />
+    <Testimonials />
+    <Footer />
 </template>
   
 <script>

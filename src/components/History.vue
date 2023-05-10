@@ -1,59 +1,46 @@
 <template>
-    <div class="blog">
+    <div class="history">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-12 top">
-                    <h3 class="sous-title">Blog</h3>
-                    <h2 class="title">Digital Printing Industry Update Latest News And Information</h2>
+                    <h3 class="sous-title">History</h3>
+                    <h2 class="title">From Startup To Success The Digital Printing Website That Revolutionized The Industry
+                    </h2>
                 </div>
             </div>
             <div class="row justify-content-between">
                 <div class="col-md-4">
                     <div class="content-card">
-                        <img src="https://rona.antstheme.com/wp-content/uploads/2023/04/news2.jpg" alt="" width="100%">
+                        <img src="https://rona.antstheme.com/wp-content/uploads/2023/04/beauty-blogger-with-follow-sign-2021-09-24-04-05-39-utc-Copy.jpg"
+                            alt="" width="100%">
                         <div class="content">
-                            <h2 class="title-card">Experience The Power Of Digital Printing</h2>
-                            <h2 class="packages">Blog Detail Lorem ipsum dolor sit amet consectetur. Non commodo mi elit…
+                            <h2 class="title-card">2013</h2>
+                            <h2 class="packages">Started With Home Digital Printing
                             </h2>
-                            <div class="button">
-                                <router-link :to="{ name: 'blog' }" class="nav-link elementor-button-link" role="button">
-                                    See Detail
-                                </router-link>
-                            </div>
                         </div>
 
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="content-card">
-                        <img src="https://rona.antstheme.com/wp-content/uploads/2023/04/news3-853x1024.jpg" alt=""
-                            width="100%">
+                        <img src="https://rona.antstheme.com/wp-content/uploads/2023/04/caucasian-woman-in-a-conference-room-on-her-digita-2021-08-28-16-45-48-utc-Copy.jpg"
+                            alt="" width="100%">
                         <div class="content">
-                            <h2 class="title-card">Experience The Power Of Digital Printing</h2>
-                            <h2 class="packages">Blog Detail Lorem ipsum dolor sit amet consectetur. Non commodo mi elit…
+                            <h2 class="title-card">2014</h2>
+                            <h2 class="packages">Become A Professional Digital Printing
                             </h2>
-                            <div class="button">
-                                <router-link :to="{ name: 'blog' }" class="nav-link elementor-button-link" role="button">
-                                    See Detail
-                                </router-link>
-                            </div>
                         </div>
 
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="content-card">
-                        <img src="https://rona.antstheme.com/wp-content/uploads/2023/04/news4-853x1024.jpg" alt=""
+                        <img src="https://rona.antstheme.com/wp-content/uploads/2023/04/image-42-Copy.jpg" alt=""
                             width="100%">
                         <div class="content">
-                            <h2 class="title-card">Experience The Power Of Digital Printing</h2>
-                            <h2 class="packages">Blog Detail Lorem ipsum dolor sit amet consectetur. Non commodo mi elit…
+                            <h2 class="title-card">2023</h2>
+                            <h2 class="packages">Become A Big Industry Digital Printing
                             </h2>
-                            <div class="button">
-                                <router-link :to="{ name: 'blog' }" class="nav-link elementor-button-link" role="button">
-                                    See Detail
-                                </router-link>
-                            </div>
                         </div>
 
                     </div>
@@ -74,7 +61,7 @@ export default {
 </script>
   
 <style scoped>
-.blog {
+.history {
     padding: 80px;
 }
 
@@ -102,9 +89,10 @@ export default {
 }
 
 .packages {
-    color: #000000a6;
-    font-size: 1em;
+    color: #000000;
+    font-size: 2em;
     font-weight: 700;
+    text-align: center;
 }
 
 .list-li {
@@ -122,7 +110,8 @@ export default {
     margin-bottom: 30px;
     font-weight: 700;
     color: black;
-    font-size: 1.8em;
+    font-size: 2.8em;
+    text-align: center;
 }
 
 .elementor-button-link {
@@ -155,6 +144,10 @@ export default {
 
 /* start media */
 @media (min-width: 0px) and (max-width: 428px) {
+    .history {
+        padding: 5px;
+    }
+
     .top .sous-title {
         font-size: 3em;
     }
@@ -164,7 +157,7 @@ export default {
     }
 
     .top .title {
-        font-size: 2em;
+        font-size: 1em;
     }
 
     .content-card {
@@ -174,7 +167,7 @@ export default {
 }
 
 @media (min-width: 429px) and (max-width: 834px) {
-    .blog {
+    .history {
         padding: 70px 18px;
     }
 
@@ -182,7 +175,9 @@ export default {
         font-size: 4em;
     }
 
-
+    .packages {
+        font-size: 1.5em;
+    }
 
     .top .title {
         font-size: 2em;

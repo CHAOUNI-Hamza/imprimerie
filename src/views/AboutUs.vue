@@ -1,6 +1,17 @@
+
 <template>
-    <div>test</div>
+    <Header />
+    <AboutUs />
+    <FastCheap />
+    <Welcome />
+    <Client />
+    <Creative />
+    <History />
+    <Special />
+    <Testimonials />
+    <Footer />
 </template>
+
   
 <script>
 

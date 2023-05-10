@@ -93,6 +93,11 @@ export default {
         font-size: 2.5em;
         padding: 10px;
     }
+
+    .fast-cheap {
+        padding: 0px;
+
+    }
 }
 
 @media (min-width: 429px) and (max-width: 834px) {

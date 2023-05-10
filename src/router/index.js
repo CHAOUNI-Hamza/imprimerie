@@ -7,7 +7,7 @@ import Team from '../views/Team.vue'
 import Gallery from '../views/Gallery.vue'
 import Pricing from '../views/Pricing.vue'
 import Blogs from '../views/Blogs.vue'
-import BlogDetail from '../views/BlogDetail.vue'
+import Blog from '../views/Blog.vue'
 import Faq from '../views/Faq.vue'
 import ContactUs from '../views/ContactUs.vue'
 
@@ -53,9 +53,9 @@ const routes = [
     component: Blogs
   },
   {
-    path: '/blog-detail',
-    name: 'blogdetail',
-    component: BlogDetail
+    path: '/blog',
+    name: 'blog',
+    component: Blog
   },
   {
     path: '/faq',

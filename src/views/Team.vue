@@ -1,5 +1,10 @@
 <template>
-    <div>test</div>
+    <Header />
+    <Ceo />
+    <Creative />
+    <Special />
+    <Testimonials />
+    <Footer />
 </template>
   
 <script>

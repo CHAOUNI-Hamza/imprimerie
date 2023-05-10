@@ -11,11 +11,48 @@
                 <li class="nav-item">
                     <router-link :to="{ name: 'aboutus' }" class="nav-link">About Us</router-link>
                 </li>
-                <li class="nav-item">
-                    <router-link :to="{ name: 'services' }" class="nav-link">Service</router-link>
+                <li class="nav-item dropdown">
+                    <router-link :to="{ name: 'services' }" class="nav-link dropdown-toggle" id="navbarDropdown1"
+                        role="button" data-bs-toggle="dropdown" aria-expanded="false">Service</router-link>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                        <li>
+                            <router-link :to="{ name: 'services' }" class="dropdown-item"
+                                style="color: black;">Services</router-link>
+                        </li>
+                        <li>
+                            <router-link :to="{ name: 'servicedetail' }" class="dropdown-item" style="color: black;">Service
+                                Detail</router-link>
+                        </li>
+                    </ul>
                 </li>
-                <li class="nav-item">
-                    <router-link :to="{ name: 'team' }" class="nav-link ">Pages</router-link>
+                <li class="nav-item dropdown">
+                    <router-link :to="{ name: 'team' }" class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">Pages</router-link>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li>
+                            <router-link :to="{ name: 'team' }" class="dropdown-item"
+                                style="color: black;">Team</router-link>
+                        </li>
+                        <li>
+                            <router-link :to="{ name: 'gallery' }" class="dropdown-item"
+                                style="color: black;">Gallery</router-link>
+                        </li>
+                        <li>
+                            <router-link :to="{ name: 'pricing' }" class="dropdown-item"
+                                style="color: black;">Pricing</router-link>
+                        </li>
+                        <li>
+                            <router-link :to="{ name: 'blogs' }" class="dropdown-item"
+                                style="color: black;">Blog</router-link>
+                        </li>
+                        <li>
+                            <router-link :to="{ name: 'blog' }" class="dropdown-item" style="color: black;">Blog
+                                Detail</router-link>
+                        </li>
+                        <li>
+                            <router-link :to="{ name: 'faq' }" class="dropdown-item" style="color: black;">Faq</router-link>
+                        </li>
+                    </ul>
                 </li>
                 <li class="nav-item">
                     <router-link :to="{ name: 'contactus' }" class="nav-link">Contact Us</router-link>
@@ -87,11 +124,50 @@
                     <li class="nav-item">
                         <router-link :to="{ name: 'aboutus' }" class="nav-link">About Us</router-link>
                     </li>
-                    <li class="nav-item">
-                        <router-link :to="{ name: 'services' }" class="nav-link">Service</router-link>
+                    <li class="nav-item dropdown">
+                        <router-link :to="{ name: 'services' }" class="nav-link dropdown-toggle" id="navbarDropdown1"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">Service</router-link>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                            <li>
+                                <router-link :to="{ name: 'services' }" class="dropdown-item"
+                                    style="color: black;">Services</router-link>
+                            </li>
+                            <li>
+                                <router-link :to="{ name: 'servicedetail' }" class="dropdown-item"
+                                    style="color: black;">Service
+                                    Detail</router-link>
+                            </li>
+                        </ul>
                     </li>
-                    <li class="nav-item">
-                        <router-link :to="{ name: 'team' }" class="nav-link ">Pages</router-link>
+                    <li class="nav-item dropdown">
+                        <router-link :to="{ name: 'team' }" class="nav-link dropdown-toggle" id="navbarDropdown"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">Pages</router-link>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <router-link :to="{ name: 'team' }" class="dropdown-item"
+                                    style="color: black;">Team</router-link>
+                            </li>
+                            <li>
+                                <router-link :to="{ name: 'gallery' }" class="dropdown-item"
+                                    style="color: black;">Gallery</router-link>
+                            </li>
+                            <li>
+                                <router-link :to="{ name: 'pricing' }" class="dropdown-item"
+                                    style="color: black;">Pricing</router-link>
+                            </li>
+                            <li>
+                                <router-link :to="{ name: 'blogs' }" class="dropdown-item"
+                                    style="color: black;">Blog</router-link>
+                            </li>
+                            <li>
+                                <router-link :to="{ name: 'blog' }" class="dropdown-item" style="color: black;">Blog
+                                    Detail</router-link>
+                            </li>
+                            <li>
+                                <router-link :to="{ name: 'faq' }" class="dropdown-item"
+                                    style="color: black;">Faq</router-link>
+                            </li>
+                        </ul>
                     </li>
                     <li class="nav-item">
                         <router-link :to="{ name: 'contactus' }" class="nav-link">Contact Us</router-link>
@@ -146,6 +222,27 @@ export default {
     padding: 100px;
 
     transition: .5s;
+}
+
+.dropdown-item {
+    transition: .5s;
+}
+
+.dropdown-item:hover {
+    color: #524bad !important;
+}
+
+.dropdown-menu {
+    display: none;
+    top: 40px;
+    transition: 1s;
+}
+
+.dropdown-menu.show {
+    display: block;
+    border-radius: 5px;
+    border: none;
+    top: 0px;
 }
 
 .day-mode {
@@ -330,9 +427,9 @@ button {
 .men {
     position: absolute;
     right: 2%;
-    max-width: 650px;
-    bottom: -51px;
-    animation: mymove 8s ease-in-out infinite;
+    max-width: 448px;
+    bottom: 0px;
+    animation: mymove-61dd7a3d 8s ease-in-out infinite;
 }
 
 @keyframes mymove {
@@ -604,7 +701,7 @@ button {
 
     .sci {
         bottom: 157px;
-        gap: 168px;
+        gap: 131px;
     }
 
     .content {
@@ -630,6 +727,25 @@ button {
 
     .navbar-responsive.active {
         left: 0;
+    }
+
+    .sci li a {
+        font-size: 3.5em;
+    }
+
+    .men {
+        max-width: 635px;
+
+    }
+
+    .logo {
+
+        font-size: 2.5em;
+
+    }
+
+    label .fa {
+        font-size: 2em;
     }
 }
 
