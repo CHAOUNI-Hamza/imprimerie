@@ -432,6 +432,10 @@ button {
     animation: mymove-61dd7a3d 8s ease-in-out infinite;
 }
 
+.link {
+    margin-bottom: 0;
+}
+
 @keyframes mymove {
 
     0%,
